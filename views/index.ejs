@@ -7,5 +7,15 @@
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    
+    <form action="/memory-storage" method="POST" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Upload a file for memory storage</legend>
+
+            <input type="file" name="file" accept=".json" placeholder="Upload a configuration file">
+
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
   </body>
 </html>

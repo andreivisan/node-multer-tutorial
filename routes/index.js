@@ -6,4 +6,16 @@ router.get('/', function(req, res) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/disk-storage', function(req, res) {
+    
+});
+
+router.get('/memory-storage', function(req, res) {
+    
+});
+
+router.get('/dropbox-storage', function(req, res) {
+    
+});
+
 module.exports = router;
